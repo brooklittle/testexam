@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main (){
+    int something;
+    cout << endl;
+    cout << "Enter something: ";
+    cin >> something;
+    cout << "Cool" << endl;
+
+    if (something == 3)
+        cout << "ok" << endl;
+
+
+
+    return 0;
+}
